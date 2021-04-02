@@ -1,0 +1,10 @@
+body{
+    direction: rtl;
+    text-align: right !important;
+    line-height: 1.6;
+    background: #fff;
+}
+.wb-bg-banner{
+    height: 100vh;
+    background: url(./img/banner);
+}
