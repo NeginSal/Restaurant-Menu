@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'BKoodak';
+    font-style: normal;
+    font-weight: bold;
+    src:  url('fonts/BKoodak.eot') format('eot'),
+          url('fonts/BKoodak.woff') format('woff'),
+          url('fonts/BKoodak.ttf') format('ttf'),
+          url('fonts/BKoodak.svg') format('svg'),
+          url('fonts/BKoodak.otf') format('otf');
+  }
 body{
+    font-family:'BKoodak' ;
     direction: rtl;
     text-align: right !important;
     line-height: 1.6;
@@ -6,5 +17,5 @@ body{
 }
 .wb-bg-banner{
     height: 100vh;
-    background: url(./img/banner);
+    background: url(./img/home-banner.jpg);
 }
