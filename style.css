@@ -7,7 +7,7 @@
           url('fonts/BKoodak.ttf') format('ttf'),
           url('fonts/BKoodak.svg') format('svg'),
           url('fonts/BKoodak.otf') format('otf');
-  }
+}
 body{
     font-family:'BKoodak' ;
     direction: rtl;
