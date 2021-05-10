@@ -19,3 +19,55 @@ body{
     height: 100vh;
     background: url(./img/home-banner.jpg);
 }
+/*Footer*/
+.social-icons .item {
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    color: #fff;
+    background-color: #00001a;
+    border-radius: 50%;
+
+}
+.social-icons.spinned .item:hover {
+    -webkit-animation: Social-Icons-Flipping .3s;
+    animation: Social-Icons-Flipping .3s
+}
+.social-icons .item .fab {
+    font-size:xx-large;
+    font-weight: 500;
+}
+.linkedin:hover {
+    background-color: #019fb6!important
+}
+.facebook:hover {
+    background-color: #019fb6!important
+}
+.twitter:hover {
+    background-color: #019fb6!important
+}
+.instagram:hover {
+    background-color: #019fb6!important
+}
+@-webkit-keyframes Social-Icons-Flipping {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+@keyframes Social-Icons-Flipping {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
